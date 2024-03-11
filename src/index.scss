@@ -1,0 +1,40 @@
+$ColorPrimary: #1a1b1f;
+
+* {
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    // letter-spacing: 0.0412796697626419vh;
+}
+
+body {
+    font-family: 'Fira Sans', 'Arial', 'sans-serif';
+    background: $ColorPrimary;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+}
+h1,
+h2,
+h3,
+p {
+    margin: 0px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #ea3c12 27.08%, #eb5114 93.23%);
+    border-radius: 4px;
+}

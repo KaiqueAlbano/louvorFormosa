@@ -1,0 +1,103 @@
+.ListLouvor {
+    .input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .total {
+        color: #8a8d8e;
+        font-size: 20px;
+    }
+    .visualizarPDF {
+        display: flex;
+        justify-content: space-between;
+
+        i {
+            cursor: pointer;
+            color: white;
+        }
+    }
+}
+
+.senhaDelete {
+    display: flex;
+    position: absolute;
+    background-color: rgba(8, 8, 8, 0.7);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        display: flex;
+        background: #0e0e0e;
+        width: 250px;
+        height: 200px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+        transition: 3s;
+
+        animation: myAnim 1s ease 0s 1 normal forwards;
+
+        @keyframes myAnim {
+            0% {
+                animation-timing-function: ease-in;
+                opacity: 1;
+                transform: translateY(-45px);
+            }
+
+            24% {
+                opacity: 1;
+            }
+
+            40% {
+                animation-timing-function: ease-in;
+                transform: translateY(-24px);
+            }
+
+            65% {
+                animation-timing-function: ease-in;
+                transform: translateY(-12px);
+            }
+
+            82% {
+                animation-timing-function: ease-in;
+                transform: translateY(-6px);
+            }
+
+            93% {
+                animation-timing-function: ease-in;
+                transform: translateY(-4px);
+            }
+
+            25%,
+            55%,
+            75%,
+            87% {
+                animation-timing-function: ease-out;
+                transform: translateY(0px);
+            }
+
+            100% {
+                animation-timing-function: ease-out;
+                opacity: 1;
+                transform: translateY(0px);
+            }
+        }
+    }
+
+    button {
+        padding: 10px;
+        width: 100px;
+        background: #1d1d1d;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+    }
+}

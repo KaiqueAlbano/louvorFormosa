@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "node_modules": true,
+        "yarn.lock": true,
+        "package-lock.json": true,
+        ".ruby-version": true,
+        ".gitignore": true,
+        "updateversion.js": true,
+        ".env": true
+        // ".prettierrc": true
+    },
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "editor.foldingImportsByDefault": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

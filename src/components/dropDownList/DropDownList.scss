@@ -1,0 +1,35 @@
+.DropDownList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .dx-texteditor-input {
+        height: 26px;
+        font-family: 'TT Regular';
+        margin-top: 5px;
+        color: #000;
+    }
+
+    &.dx-widget,
+    &:not(.dx-widget) > .dx-widget {
+        border-radius: 25px;
+        border: none;
+
+        .dx-dropdowneditor-icon {
+            background-color: transparent !important;
+        }
+    }
+
+    &.theme1 {
+        .dx-selectbox {
+            background: linear-gradient(180deg, #828282 0%, #939393 100%);
+            box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.25);
+            width: 283px;
+            height: 38px;
+            font-size: 20px;
+        }
+        .dx-placeholder {
+            color: #606060;
+        }
+    }
+}

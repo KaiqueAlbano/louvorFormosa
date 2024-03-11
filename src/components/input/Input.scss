@@ -1,0 +1,21 @@
+input.LouvorInput {
+    height: 25px;
+    border: 0;
+    outline: 0;
+    border-radius: 25px;
+    font-size: 20px;
+    padding-left: initial;
+    text-indent: 10px;
+
+    &::placeholder {
+        color: #606060;
+    }
+
+    &.theme1 {
+        border-radius: 25px;
+        background: linear-gradient(180deg, #828282 0%, #939393 100%);
+        box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.25);
+        width: 283px;
+        height: 38px;
+    }
+}

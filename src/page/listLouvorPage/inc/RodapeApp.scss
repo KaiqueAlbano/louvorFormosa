@@ -1,0 +1,31 @@
+.RodapeApp {
+    background: linear-gradient(180deg, #131419 99.99%, #1a1b1f 100%);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .iconBackgroud {
+        width: 36px;
+        height: 36px;
+        border-radius: 25px;
+        flex-shrink: 0;
+        background: linear-gradient(180deg, #ea3c12 27.08%, #eb5114 93.23%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        -webkit-box-shadow: 31px 35px 63px -18px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 31px 35px 63px -18px rgba(0, 0, 0, 0.75);
+        box-shadow: 31px 35px 63px -18px rgba(0, 0, 0, 0.75);
+
+        &:hover {
+            background: #9a9a9a;
+        }
+    }
+}

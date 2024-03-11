@@ -1,0 +1,10 @@
+.divLoading {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}

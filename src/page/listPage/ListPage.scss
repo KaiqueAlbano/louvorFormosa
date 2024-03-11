@@ -1,0 +1,91 @@
+.ListPage {
+    .input-listPage,
+    .react-select__control {
+        border: none;
+        width: 283px;
+        height: 38px;
+        margin-bottom: 10px;
+        border-radius: 25px;
+        background: linear-gradient(180deg, #828282 0%, #939393 100%);
+        box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.25);
+        color: #fff;
+
+        &:focus {
+            outline: none;
+        }
+        &::placeholder {
+            color: #525252;
+            font-weight: bold;
+        }
+    }
+    .input-select {
+        width: 304px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+
+        .react-select__placeholder {
+            color: #525252;
+            font-weight: bold;
+        }
+        .react-select__indicator-separator {
+            display: none;
+        }
+        .react-select__menu {
+            color: #525252;
+        }
+    }
+    .input-flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-listPage {
+        width: 330px;
+        .btn-limpar {
+            margin-top: 5px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(180deg, #2d3236 27.08%, #131418 93.23%);
+            box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            &:hover {
+                background: linear-gradient(180deg, #ea3c12 27.08%, #eb5114 93.23%);
+            }
+        }
+    }
+    .coluna {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #8a8d8e;
+        list-style-type: none;
+        height: 34px;
+        background: #131418;
+        border-radius: 25px;
+        li {
+            font-weight: 500;
+            font-size: 20px;
+        }
+        .coluna-orderby {
+            cursor: pointer;
+        }
+    }
+    .sub-list-page {
+        max-height: 300px;
+        overflow: auto;
+    }
+
+    .rodape {
+        height: 50px;
+        // width: 500px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        background: linear-gradient(180deg, #131419 99.99%, #1a1b1f 100%);
+    }
+}
